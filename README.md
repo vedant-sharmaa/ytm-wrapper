@@ -27,9 +27,19 @@ Unlike the web version or its installable PWA (Progressive Web App), this app al
     npm install
     ```
 
-3. Run the app:
+3. Run the app (for development):
     ```bash
     npm start
+    ```
+
+4. Build the app (creates a macOS app):
+    ```bash
+    npm run build
+    ```
+
+5. Once built, move the generated ```.app``` file (usually inside the ```YT Music Mac App-darwin-arm64``` folder) to your ```Applications``` folder for easy access.
+    ```bash
+    mv YT\ Music\ Mac\ App-darwin-arm64/YT\ Music\ Mac\ App.app /Applications/
     ```
 
 
