@@ -1,0 +1,19 @@
+{
+  "name": "ytm-wrapper",
+  "productName": "YT Music Mac App",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --platform=darwin --arch=arm64 --icon=icon.icns --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^36.5.0",
+    "electron-installer-dmg": "^5.0.1",
+    "electron-packager": "^17.1.2"
+  }
+}
