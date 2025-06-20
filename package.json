@@ -1,6 +1,6 @@
 {
   "name": "ytm-wrapper",
-  "productName": "YT Music Mac App",
+  "productName": "YTM Wrapper App",
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
     "electron": "^36.5.0",
